@@ -1,0 +1,78 @@
+
+
+.equity{
+    width: 90%;
+    position: relative;
+    height: auto;
+    border: 1px solid #608CC4;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+
+.equity-container{
+display : flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+
+.current_hold{
+height: auto;
+}
+
+.equity .equity-heading{
+    font-family: 'Open Sans',
+    sans-serif;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin: 30px 20px 20px 20px;
+}
+
+.equit_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+ .equity-text{
+        font-weight: 400;
+    color: #608CC4 !important;
+}
+
+
+/* inner text */
+.equity-subheading{
+    font-family: 'Open Sans',
+    sans-serif;
+color: #608CC4 !important;
+font-weight: 600;
+margin: 0 !important;
+}
+
+.current_hold-left>span,
+.debt-left>span{
+font-family: 'Open Sans',
+sans-serif;
+font-size: 12px;
+font-weight: 400;
+}
+
+/* current hold right */
+
+.current-hold-right{
+    width: 80%;
+}
+
+
+/* debt */
+
+.debt-right{
+    width: 80%;
+}
+
+

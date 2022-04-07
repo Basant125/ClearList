@@ -1,0 +1,25 @@
+
+.scenario-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.scenario_three{
+
+    height: 150px;
+}
+
+
+.detail-input-info{
+    text-align: center;
+    width: 250px;
+}
+
+.detail-input-three{
+    height: 70px;
+    justify-content: space-between !important;
+}

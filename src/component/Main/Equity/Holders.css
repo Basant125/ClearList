@@ -1,0 +1,64 @@
+
+
+.holders{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.holder{
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 15%;
+}
+
+.holder-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.holder-heading>span{
+ width: 100%;
+text-align: left;
+display: block;
+font-family: 'Open Sans',
+sans-serif;
+font-size: 12px;
+letter-spacing: 1px;
+font-weight: 300;
+align-self: flex-start;
+}
+
+.graph{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #608CC4;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.graph_esop{
+    background-color: rgb(151, 149, 149);
+}
+
+.graph-left{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.graph-right{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

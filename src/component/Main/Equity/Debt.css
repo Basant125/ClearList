@@ -1,0 +1,30 @@
+
+.debt-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.debt_one,.debt_two{
+    flex: 2;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #608CC4;
+font-size: 12px;
+color: #fff;
+
+}
+
+.debt_one{
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.debt_two {
+    flex: 1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #8B459F;
+}

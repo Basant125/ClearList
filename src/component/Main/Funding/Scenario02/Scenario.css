@@ -1,0 +1,57 @@
+
+.scenario_two{
+    height: 200px;
+    position: relative;
+}
+.scenario_two_detail{
+    justify-content: space-between !important;
+}
+.equity-heading-update>div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.remaining-invest{
+    display: block;
+    margin-right: 10px;
+}
+
+
+.equity-text{
+    margin-left: 10px;
+}
+
+.securityType{
+    width: 130px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #608CC4;
+    margin-top: 8px;
+}
+
+.detail-input_heading_two{
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: transparent !important;
+    border: 1px solid #666 !important;
+    box-shadow: none !important;
+
+}
+
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+
+.remove{
+    position: absolute;
+    top: 60%;
+    right: 1%;
+}
